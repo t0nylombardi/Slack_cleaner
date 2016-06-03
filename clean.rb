@@ -17,7 +17,7 @@ def list_files
   params = {
     token: token,
     ts_to: ts_to,
-    count: 100
+    count: 1000
   }
   uri = URI.parse('https://slack.com/api/files.list')
   uri.query = URI.encode_www_form(params)
