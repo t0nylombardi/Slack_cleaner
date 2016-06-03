@@ -4,7 +4,7 @@ require 'uri'
 
 # Add your API token from https://api.slack.com/web#authentication
 # into the token quotes at the top of the file.
-TOKEN = 'xoxp-3226652313-8576061424-18413162995-b63a11190f'
+TOKEN = ''
 
 # Number of times you want to run the loop.  If you think you want to delete
 # more than 100 files set the loop more than once.
