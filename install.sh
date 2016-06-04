@@ -12,5 +12,6 @@ if [ ! -d "$HOME/.slack_cleaner" ]; then
     rake install
 else
     echo "updating slack_cleaner"
+    cd "$HOME/.slack_cleaner"
     git pull
 fi
