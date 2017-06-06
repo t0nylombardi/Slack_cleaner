@@ -4,8 +4,9 @@ require 'uri'
 
 
 puts "Please enter your api token"
+puts "Create tokens here: https://api.slack.com/custom-integrations/legacy-tokens \n\n"
 STDOUT.flush
-# Add your API token from https://api.slack.com/web#authentication
+# Add your API token from: https://api.slack.com/custom-integrations/legacy-tokens
 # when asked at the prompt.
 @token = gets.chomp
 
