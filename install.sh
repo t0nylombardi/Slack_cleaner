@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ ! -d "$HOME/.slack_cleaner" ]; then
-    echo "Installing YADR for the first time"
+    echo "Installing Slack Cleaner for the first time"
     git clone --depth=1 https://github.com/t0nylombardi/Slack_cleaner.git "$HOME/.slack_cleaner"
     cd "$HOME/.slack_cleaner"
     rake install
@@ -11,3 +11,5 @@ else
     git pull
     rake install
 fi
+
+ruby clean.rb 
