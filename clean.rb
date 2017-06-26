@@ -16,7 +16,7 @@ STDOUT.flush
 N = 1
 
 # Add the number of days you want to start from. Default is 30
-NUMBER_OF_DAYS = 2
+NUMBER_OF_DAYS = 30
 
 # Slack only allows up to 1000 count list per request.
 # If you need more, set the N variable to loop more than once.
